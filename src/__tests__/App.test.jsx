@@ -57,7 +57,7 @@ test('App component > fetches a new joke when button is clicked', async () => {
   })
 
   // Click the "Get a New Joke" button
-  fireEvent.click(screen.getByText(/Get a New Joke/i))
+  fireEvent.click(screen.getByText(/Fetch New Joke/i))
 
   // Wait for the new joke to appear
   await waitFor(() => {

@@ -1,11 +1,8 @@
-// Step 1: Accept `joke` and `loading` as props
-
-const JokeDisplay = ({ joke, loading }) => {
+function JokeDisplay({ joke, loading }) {
   return (
-    <div className="joke-container">
-      {/* Step 2: If `loading` is true, display "Loading..." */}
-      {/* Step 3: Otherwise, display the joke */}
-    </div>
+    <p aria-live="polite">
+      {loading ? 'Loading joke...' : joke}
+    </p>
   )
 }
 

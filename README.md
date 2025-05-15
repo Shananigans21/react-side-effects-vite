@@ -3,6 +3,12 @@
 ## Overview
 This lab demonstrates how to handle **side effects** in React using the `useEffect` hook. The app fetches and displays a random **programming joke** when the page loads and allows users to fetch a new joke with a button click.
 
+#Features
+Fetches a random programming joke when the app loads
+Displays a loading message while fetching
+Lets users fetch a new joke by clicking a button
+Handles API errors gracefully
+
 ## Setup
 
 Run `npm install` to install dependencies.
